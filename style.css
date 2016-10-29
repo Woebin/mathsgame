@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+body {
+    background-image: url("background.png");
+    background-color: "grey";
+}
+
+#gameArea {
+  border: 2px solid white;
+  width: 500px;
+  margin: 40px auto;
+  background-color: grey;
+}
+
+#instruction {
+  font-size: 32px;
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+}
+
+#typeSelect{
+  font-size: 25px;
+}
+
+#inputAnswer {
+  font-size: 25px;
+  text-align: center;
+  width: 66px;
+  margin: auto;
+
+  position: relative;
+  left: 50%;
+  margin-top: 20px;
+  margin-left: -33px;
+  margin-bottom: 20px;
+  margin-right: 100%;
+}
+
+button {
+  width: 250px;
+  margin-bottom: 20px;
+
+  position: relative;
+  left: 50%;
+  margin-left: -125px;
+
+  height: 35px;
+  border: none;
+  background-color: lightgrey;
+  color: black;
+
+  transition: color 3s, background-color 3s, height 3s;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+
+  transition: color 1s, background-color 1s, height 1s;
+}
+
+#question{
+  font-size: 25px;
+  text-align: center;
+}
+
+#answer {
+  color: #AAFFAA;
+  width: 50%;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  font-size: 25px;
+}
+
+#selectMathType{
+  font-size: 25px;
+  color: black;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- So I'm not very creative with the design and wording of anything. Sue me. -->
+
+<head>
+	<title>A Maths Game For SL</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="mathGame.js"></script>
+</head>
+
+<body>
+	<h1>Mathematics! Hooray!</h1>
+	<div id = "gameArea">
+		<p id="instruction">Solve the math problem</p>
+		<p id="typeSelect">Select problem type:</p>
+		<form id="selectMathType">
+			<input type="radio" name="mathType" value="addition" checked>Addition<br>
+			<input type="radio" name="mathType" value="subtraction">Subtraction<br>
+			<input type="radio" name="mathType" value="multiplication">Multiplication<br>
+		</form>
+		<button id="getQuestion">Generate Problem</button>
+		<p id="question"></p>
+		<input id="inputAnswer" maxlength="7" type="text">
+		<button id="submit">Submit</button>
+		<p id="answer"></p>
+		<p id="points"></p>
+		<p id="failures"></p>
+		</div>
+</body>
+
+</html>
